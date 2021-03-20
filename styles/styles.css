@@ -1,0 +1,75 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.made-by {
+  font-size: .5rem;
+  text-align: right;
+}
+
+input {
+  text-align: right;
+  border-radius: 1rem;
+  border: 3px solid blueviolet;
+}
+
+input::-webkit-input-placeholder {
+  margin-right: 1rem;
+}
+
+input:-ms-input-placeholder {
+  margin-right: 1rem;
+}
+
+input::-ms-input-placeholder {
+  margin-right: 1rem;
+}
+
+input::placeholder {
+  margin-right: 1rem;
+}
+
+.br-rnd {
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.br-rnd:hover {
+  cursor: pointer;
+  opacity: .7;
+  color: black;
+  font-size: 120%;
+}
+
+.br-rnd:active {
+  margin: 5px 0;
+}
+
+.row {
+  height: 3rem;
+}
+
+@media only screen and (min-width: 767px) {
+  .calc {
+    font-size: 2rem;
+  }
+  .row {
+    height: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .calc {
+    width: 60vw;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,47 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.made-by {
+    font-size: .5rem;
+    text-align: right;
+}
+input {
+    text-align: right;
+    border-radius: 1rem;
+    border: 3px solid blueviolet;
+    &::placeholder {
+        margin-right: 1rem;
+    }
+}
+.br-rnd {
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    &:hover {
+        cursor: pointer;
+        opacity: .7;
+        color: black;
+        font-size: 120%;
+    }
+    &:active {
+        margin: 5px 0;
+    }
+}
+.row {
+    height: 3rem;
+}
+@media only screen and (min-width: 767px) {
+    .calc {
+        font-size: 2rem;
+    }
+    .row {
+        height: 5rem;
+    }
+}
+@media only screen and (min-width: 1023px) {
+    .calc {
+        width: 60vw;
+    }
+}
