@@ -14,7 +14,9 @@ input {
     }
 }
 .br-rnd {
-    border-radius: 2rem;
+    max-width: 90%;
+    border: 5px outset lightgrey;
+    border-radius: 5rem / 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,8 +25,7 @@ input {
         cursor: pointer;
         opacity: .7;
         color: black;
-        font-size: 120%;
-    }
+    } 
     &:active {
         margin: 5px 0;
     }
